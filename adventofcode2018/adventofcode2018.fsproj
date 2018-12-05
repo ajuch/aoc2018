@@ -7,13 +7,15 @@
 
   <ItemGroup>
     <Compile Include="IO.fs" />
+    <Content Include="day02\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="day02\solution.fs" />
     <Content Include="day01\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Compile Include="day01\solution.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
 </Project>
